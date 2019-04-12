@@ -34,3 +34,42 @@ typeof(gapminder$country)
 
 #LENGTH (number of columns)
 length(gapminder)
+
+#type of entire gapminder data set
+#list of 6 columns
+typeof(gapminder)
+
+#NUMBER OF ROWS
+nrow(gapminder)
+
+#NUMBER OF COLUMNS
+ncol(gapminder)
+
+#DIMENSIONS
+dim(gapminder)
+
+#COLUMN NAMES or TITLES
+colnames(gapminder)
+
+#previewing our dataset
+#HEAD (remember from bash?)
+#preview first few lines
+head(gapminder, n=15)
+
+#preview last few lines
+tail(gapminder, n=15)
+
+#preview lines in the middle
+gapminder[850:870, ]
+#rows specified with colon
+#leaving blank after comma signifies you want to see all columns
+
+#How would you preview middle lines if you didn't know the dimensions?
+
+#CHALLENGE #2
+#save R script
+
+#CHALLENGE #3
+#think, pair, share
+str(gapminder)
+
